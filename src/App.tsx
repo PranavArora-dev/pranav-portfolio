@@ -8,7 +8,7 @@ import { X } from 'lucide-react';
 import pranavp1 from "./assets/pranavp1.png";
 
 
-const NAV_ITEMS = [];
+const NAV_ITEMS: string[] = [];
 const SOCIAL_ITEMS = ['Linkedin', 'GitHub', 'LeetCode'];
 
 const BG_IMAGE_URL =
