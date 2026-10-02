@@ -69,7 +69,7 @@ export default function App() {
       <header className="absolute inset-x-0 top-0 z-30 flex items-start justify-between px-6 pt-6 sm:px-10 sm:pt-8">
         {/* Brand / logo link */}
         <a
-          href="./about.html"
+          href={`${import.meta.env.BASE_URL}about.html`}
           className="font-hn text-lg tracking-wide text-cream anim-fade-up block focus:outline-none"
           style={{ animationDelay: '800ms' }}
         >
